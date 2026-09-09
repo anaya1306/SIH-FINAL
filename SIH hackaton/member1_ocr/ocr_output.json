@@ -1,0 +1,51 @@
+{
+  "engine": "tesseract-fallback",
+  "full_text": "\"PACK <20 q ig a Single consumption pack\n\nRP. 48 (NcL, OF ALL TANES)\n\nRs. 0,\nS.8IN4020726% ~ o !",
+  "regions": [
+    {
+      "text": "\"PACK <20 q ig a Single consumption pack",
+      "confidence": 0.82,
+      "bbox": {
+        "x": 10,
+        "y": 10,
+        "width": 320,
+        "height": 24
+      }
+    },
+    {
+      "text": "RP. 48 (NcL, OF ALL TANES)",
+      "confidence": 0.82,
+      "bbox": {
+        "x": 10,
+        "y": 66,
+        "width": 208,
+        "height": 24
+      }
+    },
+    {
+      "text": "Rs. 0,",
+      "confidence": 0.82,
+      "bbox": {
+        "x": 10,
+        "y": 122,
+        "width": 120,
+        "height": 24
+      }
+    },
+    {
+      "text": "S.8IN4020726% ~ o !",
+      "confidence": 0.82,
+      "bbox": {
+        "x": 10,
+        "y": 150,
+        "width": 152,
+        "height": 24
+      }
+    }
+  ],
+  "image_size": {
+    "width": 0,
+    "height": 0
+  },
+  "fallback_reason": "Pipeline step failed: /Users/srushti/Documents/SIH-repo/backend/.venv311/bin/python test_ocr.py /var/folders/_q/b1wlpf7x0xs_t3c1c_3tzpk80000gn/T/tmpxf7e2pzd.jpeg --out /Users/srushti/Documents/SIH-repo/SIH hackaton/member1_ocr/ocr_output.json. Details: Timed out waiting for pipeline step"
+}

@@ -1,0 +1,201 @@
+{
+  "product": {
+    "product_name": null,
+    "generic_name": null,
+    "net_quantity": null,
+    "mrp": null,
+    "manufacturer": null,
+    "address": null,
+    "batch_number": null,
+    "manufacturing_date": null,
+    "use_by_date": null,
+    "consumer_care_phone": null,
+    "consumer_care_email": null,
+    "inclusive_of_all_taxes": false
+  },
+  "field_status": {
+    "product_name": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "generic_name": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "net_quantity": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "mrp": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "manufacturer": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "address": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "batch_number": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "manufacturing_date": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "use_by_date": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "consumer_care_phone": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "consumer_care_email": {
+      "value": null,
+      "status": "NOT_DETECTED"
+    },
+    "inclusive_of_all_taxes": {
+      "value": false,
+      "status": "FOUND"
+    }
+  },
+  "evidence": {},
+  "compliance": {
+    "overall_status": "NEEDS_REVIEW",
+    "passed": [],
+    "potential_violations": [],
+    "needs_review": [
+      {
+        "rule_id": "6(1)(a)",
+        "field": "manufacturer",
+        "status": "NEEDS_REVIEW",
+        "description": "Name and address of manufacturer, packer or importer",
+        "issue": "Name and address of manufacturer, packer or importer not detected by OCR"
+      },
+      {
+        "rule_id": "6(1)(b)",
+        "field": "generic_name",
+        "status": "NEEDS_REVIEW",
+        "description": "Common or generic name of the commodity",
+        "issue": "Common or generic name of the commodity not detected by OCR"
+      },
+      {
+        "rule_id": "6(1)(c)",
+        "field": "net_quantity",
+        "status": "NEEDS_REVIEW",
+        "description": "Net quantity of the commodity",
+        "issue": "Net quantity of the commodity not detected by OCR"
+      },
+      {
+        "rule_id": "6(1)(d)",
+        "field": "manufacturing_date",
+        "status": "NEEDS_REVIEW",
+        "description": "Month and year of manufacture, pre-packing or import",
+        "issue": "Month and year of manufacture, pre-packing or import not detected by OCR"
+      },
+      {
+        "rule_id": "6(1)(e)",
+        "field": "mrp",
+        "status": "NEEDS_REVIEW",
+        "description": "Maximum retail sale price inclusive of all taxes",
+        "issue": "Maximum retail sale price inclusive of all taxes not detected by OCR"
+      },
+      {
+        "rule_id": "6(2)",
+        "field": "consumer_care",
+        "status": "NEEDS_REVIEW",
+        "description": "Consumer complaint contact details",
+        "issue": "Consumer complaint contact details not detected by OCR"
+      },
+      {
+        "rule_id": "6(2)",
+        "field": "consumer_care_phone",
+        "status": "OPTIONAL_REVIEW",
+        "description": "Telephone number for consumer complaints, where provided",
+        "issue": "Telephone number for consumer complaints, where provided not detected by OCR"
+      },
+      {
+        "rule_id": "6(2)",
+        "field": "consumer_care_email",
+        "status": "OPTIONAL_REVIEW",
+        "description": "Email address for consumer complaints, where provided",
+        "issue": "Email address for consumer complaints, where provided not detected by OCR"
+      },
+      {
+        "rule_id": "9",
+        "field": "label_legibility",
+        "status": "MANUAL_REVIEW",
+        "description": "Mandatory declarations should be clear, prominent and legible",
+        "issue": "Mandatory declarations should be clear, prominent and legible"
+      },
+      {
+        "rule_id": "12",
+        "field": "net_quantity",
+        "status": "NEEDS_REVIEW",
+        "description": "Quantity declaration should use the applicable standard unit",
+        "issue": "Net quantity not detected by OCR"
+      },
+      {
+        "rule_id": "7",
+        "field": "declaration_size",
+        "status": "MANUAL_REVIEW",
+        "description": "Required letters and numerals should meet applicable minimum size requirements",
+        "issue": "Required letters and numerals should meet applicable minimum size requirements"
+      }
+    ]
+  },
+  "ocr": {
+    "engine": "tesseract-fallback",
+    "image_size": {
+      "width": 0,
+      "height": 0
+    },
+    "full_text": "\"PACK <20 q ig a Single consumption pack\n\nRP. 48 (NcL, OF ALL TANES)\n\nRs. 0,\nS.8IN4020726% ~ o !",
+    "regions": [
+      {
+        "text": "\"PACK <20 q ig a Single consumption pack",
+        "confidence": 0.82,
+        "bbox": {
+          "x": 10,
+          "y": 10,
+          "width": 320,
+          "height": 24
+        }
+      },
+      {
+        "text": "RP. 48 (NcL, OF ALL TANES)",
+        "confidence": 0.82,
+        "bbox": {
+          "x": 10,
+          "y": 66,
+          "width": 208,
+          "height": 24
+        }
+      },
+      {
+        "text": "Rs. 0,",
+        "confidence": 0.82,
+        "bbox": {
+          "x": 10,
+          "y": 122,
+          "width": 120,
+          "height": 24
+        }
+      },
+      {
+        "text": "S.8IN4020726% ~ o !",
+        "confidence": 0.82,
+        "bbox": {
+          "x": 10,
+          "y": 150,
+          "width": 152,
+          "height": 24
+        }
+      }
+    ]
+  }
+}
