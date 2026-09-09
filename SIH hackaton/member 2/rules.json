@@ -1,0 +1,68 @@
+[
+  {
+    "rule_id": "6(1)(a)",
+    "field": "manufacturer",
+    "check": "required",
+    "description": "Name and address of manufacturer, packer or importer"
+  },
+  {
+    "rule_id": "6(1)(b)",
+    "field": "generic_name",
+    "check": "required",
+    "description": "Common or generic name of the commodity"
+  },
+  {
+    "rule_id": "6(1)(c)",
+    "field": "net_quantity",
+    "check": "required",
+    "description": "Net quantity of the commodity"
+  },
+  {
+    "rule_id": "6(1)(d)",
+    "field": "manufacturing_date",
+    "check": "required",
+    "description": "Month and year of manufacture, pre-packing or import"
+  },
+  {
+    "rule_id": "6(1)(e)",
+    "field": "mrp",
+    "check": "required",
+    "description": "Maximum retail sale price inclusive of all taxes"
+  },
+  {
+    "rule_id": "6(2)",
+    "field": "consumer_care",
+    "check": "required",
+    "description": "Consumer complaint contact details"
+  },
+  {
+    "rule_id": "6(2)",
+    "field": "consumer_care_phone",
+    "check": "recommended",
+    "description": "Telephone number for consumer complaints, where provided"
+  },
+  {
+    "rule_id": "6(2)",
+    "field": "consumer_care_email",
+    "check": "recommended",
+    "description": "Email address for consumer complaints, where provided"
+  },
+  {
+    "rule_id": "9",
+    "field": "label_legibility",
+    "check": "manual_review",
+    "description": "Mandatory declarations should be clear, prominent and legible"
+  },
+  {
+    "rule_id": "12",
+    "field": "net_quantity",
+    "check": "unit",
+    "description": "Quantity declaration should use the applicable standard unit"
+  },
+  {
+    "rule_id": "7",
+    "field": "declaration_size",
+    "check": "manual_review",
+    "description": "Required letters and numerals should meet applicable minimum size requirements"
+  }
+]

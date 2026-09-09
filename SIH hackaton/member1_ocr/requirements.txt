@@ -1,0 +1,9 @@
+# Member 1 - OCR module dependencies
+# CPU-only setup (recommended for a hackathon laptop/demo).
+# If you have a CUDA GPU set up, swap paddlepaddle for paddlepaddle-gpu
+# and set config.USE_GPU = True.
+
+paddlepaddle==2.6.1
+paddleocr==2.7.3
+opencv-python==4.9.0.80
+numpy>=1.23,<2.0
